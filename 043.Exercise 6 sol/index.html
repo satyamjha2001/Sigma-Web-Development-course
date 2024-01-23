@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Using Flexbox</title>
+    <style>
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .logo {
+            cursor: pointer;
+        }
+
+        .logo img {
+            width: 160px
+        }
+
+        .right ul {
+            display: flex;
+            gap: 20px;
+        }
+
+        .right ul li {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+        .right ul li span {
+            padding: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="https://www.ultraedit.com/wp-content/uploads/2023/01/UE-Logo-1.webp" alt="">
+            </div>
+            <div class="right">
+                <ul>
+                    <li><span>Products</span><img height="20px" width="20px"
+                            src="https://hugeicons.com/icons/arrow-down-01-stroke-rounded.svg"></li>
+                    <li><span>Pricing</span><img height="20px" width="20px"
+                            src="https://hugeicons.com/icons/arrow-down-01-stroke-rounded.svg"></li>
+                    <li><span>Resources</span><img height=20px" width="20px"
+                            src="https://hugeicons.com/icons/arrow-down-01-stroke-rounded.svg"></li>
+                    <li><span>About us</span><img height="20px" width="20px"
+                            src="https://hugeicons.com/icons/arrow-down-01-stroke-rounded.svg"></li>
+                    <li><img src="https://www.ultraedit.com/wp-content/themes/Divi_Child/img/Lang.png"></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+</body>
+
+</html>

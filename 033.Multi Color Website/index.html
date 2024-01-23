@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        :root{
+            --color: red;
+            --seccolor: yellow;
+            --thirdcolor: orange;
+        }
+        .nav{
+            padding: 13px;
+        }
+        ul{
+            display: flex;
+            list-style: none;
+            background-color: var(--color);
+            color: var(--seccolor);
+        }
+        ul li{
+            padding: 10px;
+        }
+        .first:hover{
+            background-color: var(--thirdcolor);
+        }
+        .second:hover{
+            background-color: var(--thirdcolor);
+        }
+        .third:hover{
+            background-color: var(--thirdcolor);
+        }
+    </style>
+</head>
+<body>
+    <!-- Create a multicolor website which can change color using CSS Variables -->
+    <div class="nav">
+            <ul>
+                <li class="first">Home</li>
+                <li class="second">About</li>
+                <li class="third">Contact</li>
+            </ul>
+    </div>
+</body>
+</html>
