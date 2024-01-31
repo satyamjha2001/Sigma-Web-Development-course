@@ -1,6 +1,16 @@
 td{
     border: 2px solid black;
+    font-weight: 400;
+    color: red;
 }
 th{
     border: 2px solid black;
+    color: magenta;
+}
+caption{
+    font-size: larger;
+    font-weight: bolder;
+    font-style: italic;
+    border: 2px solid black;
+    color: royalblue;
 }
