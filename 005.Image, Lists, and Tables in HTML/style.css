@@ -1,11 +1,17 @@
-td{
+tr,td{
     border: 2px solid black;
     font-weight: 400;
     color: red;
 }
+tr:nth-child(even){
+    background-color: gray;
+}
+tr:nth-child(odd){
+    background-color: #04aa6d;
+}
 th{
     border: 2px solid black;
-    color: magenta;
+    color: black;
 }
 caption{
     font-size: larger;
@@ -13,4 +19,10 @@ caption{
     font-style: italic;
     border: 2px solid black;
     color: royalblue;
+}
+table{
+    border-collapse:collapse;
+    width: 90%;
+    margin: auto;
+    text-align: center;
 }
