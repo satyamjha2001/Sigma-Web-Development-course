@@ -1,13 +1,13 @@
 tr,td{
     border: 2px solid black;
     font-weight: 400;
-    color: red;
+    color: rgb(214, 74, 19);
 }
 tr:nth-child(even){
-    background-color: gray;
+    background-color: rgba(21, 180, 228, 0.7);
 }
 tr:nth-child(odd){
-    background-color: #04aa6d;
+    background-color: #36bde6;
 }
 th{
     border: 2px solid black;
@@ -18,7 +18,8 @@ caption{
     font-weight: bolder;
     font-style: italic;
     border: 2px solid black;
-    color: royalblue;
+    color: white;
+    background-color: #ff8b0f;
 }
 table{
     border-collapse:collapse;
